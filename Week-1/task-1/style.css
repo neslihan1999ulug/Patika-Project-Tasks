@@ -1,0 +1,235 @@
+* {
+    /* This is a CSS reset technique used to start styling from a clean baseline in projects. */
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.nav-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-container .logo img{
+    width: 140px;
+    height: 140px;
+}
+
+.nav-container .links a{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 20px;
+    transition: 0.3s linear;
+}
+
+.nav-container .links a:hover{
+    color: #61fc1f;
+    text-shadow: 1px 1px #7bfc1f ;
+}
+
+nav button{
+    width: 150px;
+    height: 40px;
+    border-radius:20px;
+    background-color: #5afc1f;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.3s linear;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #69ff2e;
+    border: none;
+    outline: none;
+
+}
+a {
+    text-decoration: none;
+}
+nav button:hover{
+    background-color:white;
+    color: #70fc1f;
+    border:2px solid #86fc1f;
+}
+
+
+
+.content .main-content{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1% 0 10%;
+}
+
+.main-content h1{
+    font-size: clamp(2rem, 1rem + 5vw, 6rem);
+    color: rgb(176, 210, 182);
+}
+
+.main-content span{
+    font-size: clamp(2rem, 1rem + 5vw, 6rem);
+    font-weight: 700;
+    color: #7bef4c;
+}
+
+.main-content p{
+    font-size: clamp(1rem, 1rem + 5vw, 1.2rem);
+    color: rgb(176, 210, 182);
+}
+
+.main-content .buttons{
+    width: 70%;
+    margin: 5%;
+    min-height: 5.5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content .buttons button{
+    width: 160px;
+    margin: 0 10px;
+    border-radius: 20px;
+    background: #91ff38;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    transform: 0.2s linear;
+}
+
+.buttons button:hover{
+    box-shadow: 2px 2px 30px #116611;
+}
+
+.image img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+
+
+
+
+.project .iframe-container{    
+    display: flex;
+    justify-content: center ;
+        gap: 50px;
+
+
+}
+.iframe-container .iframe{
+   border:1px solid #86fc1f;
+    box-shadow: 0 0 80px rgba(38, 254, 38, 0.436);
+    width: 500px;
+    height: 700px;
+
+}
+
+.education-content{
+    color: #cff1cf;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.education .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #38e135;
+    font-style: italic;
+
+
+}
+.education-info{
+    max-width: 700px;
+    width: 100%;
+    text-align: left;
+    background-color: #272328;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(119, 231, 119, 0.436);
+}
+.h3-heading{
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.experiences{
+    min-height: 100vh;
+    background-color: rgb(23, 9, 27);
+    padding: 60px 20px;
+    text-align: center;
+
+
+}
+.experiences-content{
+    color: #cff1cf;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.experiences .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #38e135;
+    font-style: italic;
+
+
+}
+.experiences-info{
+    max-width: 700px;
+    width: 100%;
+    text-align: left;
+    background-color: #272328;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(119, 231, 119, 0.436);
+}
+.h3-heading{
+    font-style: italic;
+    font-size: 20px;
+}
+.experiences-info p {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-left: 10px;
+}
+
+
+
+.skills-content{
+    color: #cff1cf;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.skills .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #38e135;
+    font-style: italic;
+
+
+}
+.skills-info{
+    max-width: 700px;
+    width: 100%;
+    text-align: left;
+    background-color: #272328;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(119, 231, 119, 0.436);
+}
+
+.skills-info p {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-left: 10px;
+}
