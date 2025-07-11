@@ -4,7 +4,7 @@
 ![Rehber Web Sitesi](./src/hakkında.html-img.png)
 ![Rehber Web Sitesi](./src/servisler.html-img.png)
 ![Rehber Web Sitesi](./src/iletişim.html-img.png)
-![Rehber Web Sitesi](./src/index.html-img-2.png)
+![Rehber Web Sitesi](./src/index.html-img-2.png)git
 
 ***Genel Yapı:***
 
