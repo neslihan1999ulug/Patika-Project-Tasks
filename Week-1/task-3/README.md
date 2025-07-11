@@ -1,5 +1,6 @@
 ###  Ödev 3 - Rehber Web Sitesi Oluşturma
 
+![Rehber Web Sitesi](./src/index.html-img.png)
 ![Rehber Web Sitesi](./src/hakkında.html-img.png)
 ![Rehber Web Sitesi](./src/servisler.html-img.png)
 ![Rehber Web Sitesi](./src/iletişim.html-img.png)
