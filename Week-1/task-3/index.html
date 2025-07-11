@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehber Web Sitesi</title>
+</head>
+<body>
+
+    <!-- custom css  -->
+    <style>
+        body{
+            background-color: rgb(21, 18, 44);
+            font-family:sans-serif;
+        }
+        /* The navigation bar */
+        nav{
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color:rgba(0, 0, 0, 0.3);  
+        }
+        /* Links inside the navbar */
+        nav a{
+            text-align: center;
+            text-decoration: none;
+            float: left;
+            display: block;
+            color: rgb(178, 181, 212);
+            padding: 26px 50px;
+            font-size: 20px;
+        }
+        nav a:hover{
+            transform: scale(1.1);
+            color: rgb(107, 160, 201);
+            text-shadow: 0 0 2px rgb(166, 236, 255)
+        }
+        header{
+            align-items: center;
+            justify-content: center;
+            color: aliceblue;
+            padding: 100px 5px 20px 50px;
+            font-size: 40px;
+        }
+        header h1 span{
+            color: rgb(153, 245, 255);
+            text-shadow: 0 0 5px rgb(166, 236, 255)
+            
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+        }
+        .left-col, .right-col{
+            flex: 1;
+        }
+        section p{
+            float: left;
+            color: aliceblue;
+            margin: 20px 0px 20px 50px;
+            font-size: 20px;
+        }
+        section img{
+            width: 300px;
+            height: 300px;
+            margin-top: -350px;
+        }
+        section h2{
+            font-size: 30px;
+            color: aliceblue;
+        }
+        section ul li{
+            font-size: 20px;
+            color: aliceblue;
+            padding-right: 200px;
+        }
+
+    </style>
+
+
+    <!-- navbar section -->
+    <nav>
+        <a href="./index.html">Anasayfa</a>
+        <a href="./hakkında.html">Hakkında</a>
+        <a href="./iletisim.html">İletisim</a>
+        <a href="./servisler.html">Servisler</a>
+    </nav>
+
+    <!-- header section  -->
+     <header>
+        <h1>"Modern Çözümler <br><span>Akıllı Kodlar.</span> "</h1>
+     </header>
+
+    <!-- body section -->
+    <section>
+        <div class="left-col">
+            <p> Web projeleriniz için mobil uyumlu tasarımlar, performans odaklı kodlama ve
+                <br> etkileşimli bileşenlerle güçlü bir kullanıcı deneyimi sunuyorum.
+                <br>React, Tailwind CSS ve en güncel teknolojileri kullanarak
+                <br> ihtiyaca özel çözümler
+                üretiyorum.
+            </p>
+        </div>
+        <div class="rigth-col">
+            <img src="./src/img.png" alt="Hizmetler-img">
+            <h2>Hizmetler</h2>
+            <ul>
+                <li>Responsive Web Tasarımı</li>
+                <li>Modern Arayüz Geliştirme</li>
+                <li> Kod Yenileme ve Refactor Hizmeti</li>
+                <li>Performans ve Hız Optimizasyonu</li>
+                <li>UI/UX Danışmanlığı</li>
+            </ul>
+        </div> 
+    </section>
+</body>
+</html>

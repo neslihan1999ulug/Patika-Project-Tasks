@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehber Web Sitesi</title>
+</head>
+<body>
+
+    <!-- custom css  -->
+    <style>
+        body{
+            background-color: rgb(21, 18, 44);
+            font-family:sans-serif;
+        }
+        /* The navigation bar */
+        nav{
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color:rgba(0, 0, 0, 0.3);   
+        }
+
+        /* Links inside the navbar */
+        nav a{
+            text-align: center;
+            text-decoration: none;
+            float: left;
+            display: block;
+            color: rgb(178, 181, 212);
+            padding: 26px 50px;
+            font-size: 20px;
+        }
+        nav a:hover{
+            transform: scale(1.1);
+            color: rgb(107, 160, 201);
+            text-shadow: 0 0 2px rgb(166, 236, 255)
+        }
+        header{
+           align-items: center;
+            justify-content: center;
+            color: aliceblue;
+            padding: 80px 5px  1px;
+            font-size: 20px
+        }
+
+        section ul {
+            margin-top: 50px;
+        }
+        section ul li{
+            font-size: 20px;
+            color: aliceblue;
+            margin-top: 20px;
+        }
+        section ul li p{
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        section ul li h2{
+            font-size: 25px;
+            color: aliceblue;
+        }       
+
+    </style>
+
+
+    <!-- navbar section -->
+    <nav>
+        <a href="./index.html">Anasayfa</a>
+        <a href="./hakkında.html">Hakkında</a>
+        <a href="./iletisim.html">İletisim</a>
+        <a href="./servisler.html">Servisler</a>
+    </nav>
+    <!-- header section  -->
+    <header>
+        <h1>Servisler</h1>
+    </header>
+    
+
+    <!-- body section -->
+    <section>
+        <ul>
+            <li>
+                <h2>Web Uygulama Geliştirme</h2>
+                <p>İhtiyacınıza özel, hızlı ve güvenli web uygulamaları geliştiriyoruz.
+                    <br> Modern teknolojilerle ölçeklenebilir çözümler sunarak dijital süreçlerinizi destekliyoruz.</p>
+            </li>
+            <li>
+                <h2>Mobil Uygulama Geliştirme</h2>
+                <p>iOS ve Android platformları için kullanıcı dostu ve performanslı mobil uygulamalar geliştiriyoruz. 
+                <br> Flutter ve React Native gibi güncel araçlarla maliyet etkin çözümler sağlıyoruz.</p>
+            </li>
+            <li>
+                <h2>UI/UX Tasarımı</h2>
+                <p>Kullanıcı deneyimini merkeze alan tasarımlar ile arayüzlerinizi hem estetik hem de işlevsel hale getiriyoruz. 
+                <br> Figma gibi araçlarla prototipleme ve test süreçleri de dahil.
+                </p>
+            </li>
+            <li>
+                <h2>Performans ve SEO Optimizasyonu</h2>
+                <p>Web sitenizin hızını ve görünürlüğünü artırmak için teknik SEO, sayfa içi optimizasyon ve performans iyileştirmeleri sağlıyoruz.
+                <br>Daha iyi kullanıcı deneyimi ve arama motoru sıralaması için çözümler üretiyoruz.
+                </p>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>

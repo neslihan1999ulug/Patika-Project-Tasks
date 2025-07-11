@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehber Web Sitesi</title>
+</head>
+<body>
+
+    <!-- custom css  -->
+    <style>
+        body{
+            background-color: rgb(21, 18, 44);
+            font-family:sans-serif;
+        }
+        /* The navigation bar */
+        nav{
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color:rgba(0, 0, 0, 0.3);  
+        }
+
+        /* Links inside the navbar */
+        nav a{
+            text-align: center;
+            text-decoration: none;
+            float: left;
+            display: block;
+            color: rgb(178, 181, 212);
+            padding: 26px 50px;
+            font-size: 20px;
+        }
+        nav a:hover{
+            transform: scale(1.1);
+            color: rgb(107, 160, 201);
+            text-shadow: 0 0 2px rgb(166, 236, 255)
+        }
+        header{
+            align-items: center;
+            justify-content: center;
+            color: aliceblue;
+            padding: 80px 5px  1px;
+            font-size: 20px;
+        }
+
+        section{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .left-col, .right-col{
+            flex: 1;
+          }
+        section img{
+            width: 300px;
+            height: 300px;
+          }
+        section p{
+            float: left;
+            color: aliceblue;
+            margin: 0px 0px 20px 10px;
+            font-size: 20px;
+        }
+
+        section h2{
+            font-size: 30px;
+            color: aliceblue;
+            text-align: center;
+        }
+        section ol {
+            margin-top: 40px;
+        }
+        section ol li{
+            font-size: 20px;
+            color: aliceblue;
+            padding-right: 200px;
+            margin-top: 20px;
+        }
+    </style>
+
+
+    <!-- navbar section -->
+    <nav>
+        <a href="./index.html">Anasayfa</a>
+        <a href="./hakkında.html">Hakkında</a>
+        <a href="./iletisim.html">İletisim</a>
+        <a href="./servisler.html">Servisler</a>
+    </nav>
+
+        <!-- header section  -->
+    <header>
+        <h1>Hakkımızda</h1>
+    </header>
+
+    <!-- body section -->
+    <section>
+        <img src="./src/hakkımızda-img.png" alt="hakkımızda-img">
+        <div class="left-col">
+            <h2>Hakkımızda</h2>
+            <p> Şirketimiz, 2021 yılında genç ve vizyoner bir ekip tarafından teknolojiye
+                <br> yön veren projeler geliştirme hedefiyle kuruldu.
+                <br>Bu süreçte Ar-Ge destekleri ve mentorluklarla  
+                <br>Ürün fikirlerimizi olgunlaştırma fırsatı bulduk.
+            </p>
+        </div>
+        <div class="rigth-col">
+            <h2>Kuruluş Tarihimiz</h2>
+            <ol>
+                <li>2021-Şirket kuruluşu, üniversite kuluçka programına kabul</li>
+                <li>2022-Teknopark ofisi açıldı, ilk müşteri projesi</li>
+                <li>2023-TÜBİTAK 1512 ve KOSGEB destekleri alındı</li>
+                <li>2024-Yurt dışına ilk hizmet ihracatı gerçekleşti</li>
+            </ol>
+        </div> 
+    </section>
+</body>
+</html>

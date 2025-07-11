@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!-- custom css  -->
+    <style>
+        body{
+            background-color: rgb(21, 18, 44);
+            font-family:sans-serif;
+        }
+        /* The navigation bar */
+        nav{
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color:rgba(0, 0, 0, 0.3);  
+        }
+
+        /* Links inside the navbar */
+        nav a{
+            text-align: center;
+            text-decoration: none;
+            float: left;
+            display: block;
+            color: rgb(178, 181, 212);
+            padding: 26px 50px;
+            font-size: 20px;
+        }
+        nav a:hover{
+            transform: scale(1.1);
+            color: rgb(107, 160, 201);
+            text-shadow: 0 0 2px rgb(166, 236, 255)
+        }
+        header{
+           align-items: center;
+            justify-content: center;
+            color: aliceblue;
+            padding: 80px 5px  1px;
+            font-size: 20px;
+        }
+
+        section ul {
+            margin-top: 50px;
+        }
+        section ul li{
+            font-size: 20px;
+            color: aliceblue;
+            margin-top: 20px;
+        }
+        section ul li h2{
+            font-size: 25px;
+            color: aliceblue;
+        }       
+        section ul li p{
+            color: aliceblue;
+            font-size: 15px;
+        }
+        .form-container{
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        form{
+            padding: 30px 40px;
+        }
+        .form-header{
+            border-bottom: 1px solid;
+            padding: 20px 40px;
+            color: aliceblue;                
+        }
+        .input-box{
+            padding-bottom: 20px;
+            position: relative;
+        }
+
+        .input-box label{
+            display: inline-block;
+            margin-bottom: 5px;
+            color: aliceblue;
+        }
+
+        .input-box input{
+            width: 60%;
+            display: block;
+            padding: 10px;
+            border: 2px solid #f0f0f0;
+            border-radius: 5px;
+            outline: none;
+            font-size: 14px;
+        }
+        .btn{
+            width: 10%;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 18px;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            background-color: rgb(21, 18, 44);
+        }
+        
+
+    </style>
+
+    <!-- navbar section -->
+    <nav>
+        <a href="./index.html">Anasayfa</a>
+        <a href="./hakkında.html">Hakkında</a>
+        <a href="./iletisim.html">İletisim</a>
+        <a href="./servisler.html">Servisler</a>
+    </nav>
+
+    <!-- header section  -->
+    <header>
+        <h1>İletişim</h1>
+    </header>
+
+
+    <!-- body section -->
+    <section>
+        <ul>
+            <li>
+                <h2>Telefon</h2>
+                <p>+90 000 000 00 00</p>
+            </li>
+            <li>
+                <h2>Email</h2>
+                <p>kurumsal@yazılım.com</p>
+            </li>
+            <li>
+                <h2>Adres</h2>
+                <p>Gül Mahallesi, 2012. Sokak No: 17/A Merkez / Isparta 32040</p>
+            </li>
+        </ul>
+
+        <!-- Start of the form -->
+        <div class="form-container">       
+            <!-- Header section of the form -->
+            <div class="form-header">
+                <h2>Bize Ulaşın</h2>
+            </div>
+        
+            <form action="">
+        
+                <!-- Username input box -->
+                <div class="input-box">
+                    <label for="username">İsim</label>
+                    <input type="text" placeholder="isim giriniz" required>
+                </div>
+        
+                <!-- Email input box -->
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email adresinizi giriniz" required>
+                </div>
+        
+                <!-- Message text area -->
+                <div class="input-box">
+                    <label for="message">Mesaj</label><br>
+                    <textarea id="message" name=" message" rows="4" cols="35"></textarea>
+                </div>
+                <!-- Submit button -->
+                <button class="btn" type="submit">Gönder</button>
+            </form>
+            <!-- End of the form -->
+        </div>
+    </section>
+</body>
+</html>
