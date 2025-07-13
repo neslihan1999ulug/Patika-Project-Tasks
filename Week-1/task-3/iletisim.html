@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
- <!-- custom css  -->
+
+     <!-- custom css  -->
     <style>
         body{
             background-color: rgb(21, 18, 44);
@@ -106,15 +105,19 @@
             background-color: rgb(21, 18, 44);
         }
         
-
     </style>
+
+</head>
+<body>
 
     <!-- navbar section -->
     <nav>
-        <a href="./index.html">Anasayfa</a>
-        <a href="./hakkında.html">Hakkında</a>
-        <a href="./iletisim.html">İletisim</a>
-        <a href="./servisler.html">Servisler</a>
+        <ul>
+            <li><a href="./index.html">Anasayfa</a></li>
+            <li><a href="./hakkında.html">Hakkında</a></li>
+            <li><a href="./iletisim.html">İletisim</a></li>
+            <li><a href="./servisler.html">Servisler</a></li>
+        </ul>
     </nav>
 
     <!-- header section  -->
@@ -152,13 +155,13 @@
                 <!-- Username input box -->
                 <div class="input-box">
                     <label for="username">İsim</label>
-                    <input type="text" placeholder="isim giriniz" required>
+                    <input type="text"  id="username"  placeholder="isim giriniz" required>
                 </div>
         
                 <!-- Email input box -->
                 <div class="input-box">
                     <label for="email">Email</label>
-                    <input type="email" placeholder="Email adresinizi giriniz" required>
+                    <input type="email" id="email" placeholder="Email adresinizi giriniz" required>
                 </div>
         
                 <!-- Message text area -->
