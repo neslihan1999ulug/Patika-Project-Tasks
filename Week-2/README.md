@@ -4,21 +4,21 @@
 
 Aşağıdaki gereksinimleri karşılayan bir HTML formu oluşturuldu.
 
-1. <!DOCTYPE html> bildirimi kullanılmıştır. HTML5 standardını belirtmek amacıyla yapılmıştır.
-2. <html lang="en"> etiketi kullanılmıştır. Sayfa dilinin İngilizce olduğunu belirtmek amacıyla yapılmıştır.
-3. <meta charset="UTF-8"> etiketi kullanılmıştır. UTF-8 karakter kodlaması ayarlanmıştır.
-4. <meta name="viewport" content="width=device-width, initial-scale=1.0"> etiketi kullanılmıştır. Sayfanın mobil uyumlu olması için yapılmıştır.
+1. `<!DOCTYPE html>` bildirimi kullanılmıştır. HTML5 standardını belirtmek amacıyla yapılmıştır.
+2. `<html lang="en">`etiketi kullanılmıştır. Sayfa dilinin İngilizce olduğunu belirtmek amacıyla yapılmıştır.
+3. `<meta charset="UTF-8">` etiketi kullanılmıştır. UTF-8 karakter kodlaması ayarlanmıştır.
+4. `<meta name="viewport" content="width=device-width, initial-scale=1.0">` etiketi kullanılmıştır. Sayfanın mobil uyumlu olması için yapılmıştır.
 5. Favicon bağlantısı yapılmıştır. Tarayıcı sekmesinde özel simge göstermek için kullanılmıştır.
 6. style.css dosyası bağlanmıştır. Tüm özel stiller bu dosya ile sağlanmıştır.
 7. Google Fonts’tan "Oswald" ve "Amatic SC" yazı tipleri eklenmiştir. Başlıklar ve metinlerde özgün fontlar kullanılmıştır.
-8. <header> etiketi kullanılmıştır. Sayfa başlığı ve navigasyon barı bu alanda oluşturulmuştur.
-9. <h1> başlığı içinde <span> etiketi kullanılmıştır. "FASHION" kelimesi farklı font ile vurgulanmıştır.
-10. <nav> etiketi ve içinde ul > li > a yapısı ile navigasyon menüsü yapılmıştır.
+8. `<header>` etiketi kullanılmıştır. Sayfa başlığı ve navigasyon barı bu alanda oluşturulmuştur.
+9. `<h1>` başlığı içinde `<span>` etiketi kullanılmıştır. "FASHION" kelimesi farklı font ile vurgulanmıştır.
+10. `<nav>` etiketi ve içinde ul > li > a yapısı ile navigasyon menüsü yapılmıştır.
 11. button etiketi ile "Fashion Blog" butonu oluşturulmuştur. Tıklanınca blog sayfasına yönlendirme yapılmıştır.
-12. .hero-section adında bir <section> tanımlanmıştır. Ana tanıtım alanı olarak kullanılmıştır.
+12. .hero-section adında bir`<section>` tanımlanmıştır. Ana tanıtım alanı olarak kullanılmıştır.
 13. .hero-content içinde article etiketleri ile blog yazı kartları yerleştirilmiştir.
-14. Her article kartında başlık (<h3>), açıklama (<p>) ve "Read More" butonları kullanılmıştır.
-15. Footer alanı <footer> etiketiyle yapılmıştır. Telif hakkı bilgisi yerleştirilmiştir.
+14. Her article kartında başlık `<h3>`, açıklama `<p>` ve "Read More" butonları kullanılmıştır.
+15. Footer alanı `<footer>` etiketiyle yapılmıştır. Telif hakkı bilgisi yerleştirilmiştir.
 16. CSS tarafında *, html, body gibi seçicilerle Reset CSS işlemi yapılmıştır. Varsayılan boşluklar sıfırlanmıştır.
 17. :root içinde özel CSS değişkenleri tanımlanmıştır. Renk, font, arka plan gibi değerlerin tekrar kullanılabilir olması sağlanmıştır.
 18. header için display: flex, justify-content: space-around, align-items: center gibi stiller kullanılmıştır. Üst menü düzenlenmiştir.
