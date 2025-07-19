@@ -1,6 +1,6 @@
 ###  Ödev 1 - Blog Sayfası Oluşturma -
-[Fashion Blog Sayfası Çalışması --> Sayfaya Gitmek için Tıklayınız]()
 ![ Fashion-Blog](./src/project.png)
+![ Fashion-Blog-Preview](./src/project.gif)
 
 Aşağıdaki gereksinimleri karşılayan bir HTML formu oluşturuldu.
 
