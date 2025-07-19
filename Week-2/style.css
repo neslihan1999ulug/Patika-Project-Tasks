@@ -1,0 +1,236 @@
+** CSS file for Week-2 project ***/
+
+
+/* Reset CSS code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+
+    background-color: var(--body-bg-color);
+}
+/* Custom CSS variables */
+:root {
+    --body-bg-color: #ffffff;
+    --header-bg-color: #333;
+    --header-text-color: #f4f4f4;
+    --a-hover-text-color: #acd6cf;
+    --button-bg-color: hsl(0, 89%, 96%); 
+    --button-hover-bg-color: #EBFFD8;
+    --button-text-color: #111111;   
+    --button-hover-text-color: #111111;
+    --custom-font-family-primary: "Oswald", sans-serif;
+    --custom-font-family-secondary: "Amatic SC", sans-serif;
+    --body-header-color: #333;
+    --body-p-color: #666;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+.header h1 {
+    font-family: var(--custom-font-family-primary);
+    font-size: 30px;
+    
+}
+header h1 span {
+    font-family: var(--custom-font-family-secondary);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 40px;
+    list-style: none;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--header-text-color);
+    font-size: 25px;
+    font-family: var(--custom-font-family-primary);
+}
+
+nav ul li a:hover {
+    color: var(--a-hover-text-color);
+    transition: 0.1s;
+}
+
+.fashion-blog-button {
+    border-radius: 50px;
+    border: none;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    font-family: var(--custom-font-family-secondary);
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.fashion-blog-button:hover {
+    background-color: var(--button-hover-bg-color);
+    transition: 0.2s;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: var(--custom-font-family-secondary);
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--body-header-color);
+}
+
+.hero-image {
+    width: 500px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    width:400px;
+    height: 400px;
+    box-shadow: #e0d1c4 0px 0px 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #eee8e8, #ffe7e1);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.hero-content h2 {
+    font-size: 24px;
+    font-family: var(--custom-font-family-primary);
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: var(--body-header-color);
+}
+
+.hero-card h3 {
+    font-family: var(--custom-font-family-primary);
+    font-size: 15px;
+    color: var(--body-header-color);
+
+}
+
+.hero-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    font-size: 13px;
+    color: var(--body-p-color)
+}
+.read-more-button {
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: var(--button-text-color);
+    font-family: var(--custom-font-family-primary);
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 50%;
+
+}
+.read-more-button:hover {
+    background-color: var(--button-hover-bg-color);
+    transition: 0.2s;
+}
+footer {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    text-align: center;
+    padding: 20px;
+    font-family: var(--custom-font-family-primary);
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* post-page-css */
+.article-section h2 {
+    font-family: var(--custom-font-family-primary);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--body-header-color);
+}
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.article-card {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border: 1px solid #f8eeee;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    width: 90%;
+    position: relative;
+    gap: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.article-card img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+.article-card h3 {
+    font-family: var(--custom-font-family-primary);
+    font-size: 20px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: var(--body-header-color);
+}
+.article-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0 30px 20px 30px;
+    color: var(--body-p-color);
+}
