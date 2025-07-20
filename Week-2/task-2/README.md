@@ -1,4 +1,4 @@
-###  Ödev 1 - Blog Sayfası Oluşturma -
+###  Ödev 2 - Yazar Sayfası Oluşturma -
 ![ Author-Page](src/project-1.png)
 ![ Author-Page](src/project-2.png)
 ![ Author-Page](src/project-3.png)
