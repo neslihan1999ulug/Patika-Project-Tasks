@@ -18,17 +18,17 @@
         <nav class="navbar-container">
             <h1>Solaris</h1>
             <ul>
-                <li><a href="./index.html">Anasayfa</a>
-                <li><a href="./info.html">Hakkında</a></li>
-                <li><a href="./books.html">Kitaplar</a></li>
+                <li><a href="#hero">Anasayfa</a></li>
+                <li><a href="#info">Hakkında</a></li>
+                <li><a href="#books">Kitaplar</a></li>
             </ul>
-            <button class="contact-button" onclick="location.href='./post.html'">İletişim</button>
+            <button class="contact-button" onclick="location.href='#contact'">İletişim</button>
         </nav>
     </header>
     <!-- navbar-end  -->
-
+     
     <!-- hero section -->
-    <section class="hero-section">
+    <section class="hero-section" id="hero">
         <h2>Selin Solaris</h2>
         <div class="hero-content">
             <img src="./src/profil.png" alt="profil-img" class="hero-image">
@@ -37,10 +37,82 @@
     </section>
     <!-- hero section end -->
 
+     <!-- info section start -->
+    <section class="info-section" id="info">
+        <h2>Hakkında</h2>
+        <p>“Selin Solaris, son yıllarda Türk genç-yetişkin ve fantastik kurgu edebiyatına yeni bir soluk getirmiş yazar ve
+            içerik üreticilerinden biridir. Karanlık atmosferler, güçlü kadın karakterler ve derin psikolojik çözümlemelerle
+            örülü anlatımı sayesinde kısa sürede geniş bir okur kitlesine ulaşmıştır.
+        
+            Edebiyat kariyerine 2020’li yılların başlarında başladığı düşünülmektedir. Özellikle Raven Suikastçisi ve devam
+            kitabı Raven’in Peşinde ile dikkatleri üzerine çekmiş; Fantom Etkisi: Ölümün Kalbi ve Doğa Dönüyor adlı eserleriyle
+            bu başarısını perçinlemiştir.
+        
+            Bugün itibarıyla Selin Solaris, yalnızca bir yazar değil; aynı zamanda çağının ruhunu yakalamış, gençlere ilham
+            veren bir edebiyat temsilcisi olmuştur. Gerek dijital içerikleriyle gerek kaleme aldığı hikâyelerle, Türk
+            edebiyatına değerli katkılarda bulunmaya devam etmektedir.        
+            ”</p>
+    </section>
+    <!-- info section end -->
+
+    <!-- books section -->
+    <section class="book-section" id="books">
+        <ul>
+            <li>
+                <div class="book-content">
+                    <div class="left-side">
+                        <img src="./src/b1.png" alt="profil-img" class="hero-image">
+                    </div>
+                    <div class="right-side">
+                        <h3>Fantom Etkisi- Ölümün Kalbi</h3>
+                        <p>1 Ekim 2024 / Artemis Yayınları</p>
+                        <button class="contact-button" onclick="location.href='./post.html'">Satın Al</button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="book-content">
+                    <div class="left-side">
+                        <img src="./src/b2.png" alt="profil-img" class="hero-image">
+                    </div>
+                    <div class="right-side">
+                        <h3>Raven'ın Peşinde</h3>
+                        <p>12 Mayıs 2025 / Martı Yayınları</p>
+                        <button class="contact-button" onclick="location.href='./post.html'">Satın Al</button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="book-content">
+                    <div class="left-side">
+                        <img src="./src/b3.png" alt="profil-img" class="hero-image">
+                    </div>
+                    <div class="right-side">
+                        <h3>Raven Suikastçısı</h3>
+                        <p>22 Ocak 2025 / Martı Yayınları</p>
+                        <button class="contact-button" onclick="location.href='./post.html'">Satın Al</button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="book-content">
+                    <div class="left-side">
+                        <img src="./src/b4.png" alt="profil-img" class="hero-image">
+                    </div>
+                    <div class="right-side">
+                        <h3>Fantom Etkisi - Doğa Dönüyor</h3>
+                        <p>5 Haziran 2024 / Artemis Yayınları</p>
+                        <button class="contact-button" onclick="location.href='./post.html'">Satın Al</button>
+                    </div>
+                </div>
+            </li>
+        </ul> 
+    </section>
+    <!-- books section end -->
+
     <!-- footer section start -->
     <footer>
         <p>Patika+ tarafından verilen ödev için hazırlanmıştır. Tüm hakları saklıdır &copy; 2025</p>
     </footer>
     <!-- footer section end -->
-</body>
 </html>
