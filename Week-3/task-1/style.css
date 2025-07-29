@@ -1,0 +1,133 @@
+
+:root {
+    --primary-color: hwb(167 59% 6%);
+    --primary-text-color:#3a3737;
+;
+    --secondary-text-color: #1b1b1b;
+    --text-hover-color: #ffffff;
+    --primary-font-family:"Bungee", sans-serif;
+
+}
+.navbar {
+  background: #ffffff;
+  height: 70px;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: #afadad 0px 0px 7px;
+} 
+.login-button{
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-text-color);
+    border-radius: 20px;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.login-button:hover{
+    background-color: var(--primary-color);
+    color: var(--text-hover-color);
+}
+.navbar-toggler {
+    border: none;
+    font-size: 1,25rem;
+}
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+.navbar-brand {
+    color: var(--primary-text-color);
+    font-size: 30px;
+    font-family: var(--primary-font-family)
+}
+
+.nav-link {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+}
+.nav-link:hover, .nav-link:active {
+  color: var(--primary-text-color);
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+.hero-section {
+  background:url(./src/vecteezy_gradient-blur-background_20911482.png);
+
+  background-size: contain;
+  background-position: center;  
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.widget-list-inline li {
+  margin-bottom: 10px;
+
+
+}
+.widget-list-inline li a {
+  padding: 2px 15px;
+  border: 1px solid #84f7e7;
+  border-radius: 30px;
+  display: block;
+  color: #555;
+  text-decoration: none;
+}
+.widget-list-inline li a:hover {
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.custom-h1-class {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+    padding-top: 50px;
+} 
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* blog section  */
+
+.blog-section {
+    background: url(./src/vecteezy_gradient-blur-background_20911482.png) no-repeat center center;
+    background-size: contain;
+}
+.custom-btn {
+  padding: 2px 15px;
+  border: 1px solid #84f7e7;
+  border-radius: 30px;
+  display: block;
+  color: #555;
+  text-decoration: none;
+  width: 40%;
+}
+.custom-btn:hover {
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.custom-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card-text {
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    padding: 0 20px;
+}
+.card-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--primary-text-color);
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
